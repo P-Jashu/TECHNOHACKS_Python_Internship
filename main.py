@@ -36,7 +36,6 @@ def ATM():
                 print("\nPlease enter your denomination in 500's only")
         else:
             print("Please enter a valid option.")
-            ATM()
         choice2 = input("\nDo you want to continue with our services(Y or N) ")
         if choice2 == 'N':
             print("\nThanks for using our ATM.")
